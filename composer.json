@@ -1,0 +1,23 @@
+{
+    "name": "vinkas/laravel-recaptcha",
+    "description": "Google reCAPTCHA Validator Package for Laravel Framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinoth Kannan",
+            "email": "vinothkannan@vinkas.com",
+            "homepage": "https://github.com/vinothkananns"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "google/recaptcha": "~1.1",
+        "illuminate/support": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vinkas\\Laravel\\Recaptcha\\": "src"
+        }
+    }
+}
