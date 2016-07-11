@@ -3,6 +3,18 @@ Google reCAPTCHA Validator Package for Laravel Framework
 
 ## Usage
 
+**Add Service Provider to your `config/app.php` file**
+
+```
+Vinkas\Laravel\Recaptcha\ServiceProvider::class,
+```
+
+And run `php artisan` command to publish package config file
+
+```
+php artisan vendor:publish --provider="Vinkas\Laravel\Recaptcha\ServiceProvider"
+```
+
 **Add your recaptcha site key and secret in `.env` file**
 
 ```
