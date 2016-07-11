@@ -1,13 +1,13 @@
 # Laravel Recaptcha Validator
-[![Latest Stable Version](https://poser.pugx.org/vinkas/laravel-recaptcha/v/stable.svg)](https://packagist.org/packages/vinkas/laravel-recaptcha)
+<!--[![Latest Stable Version](https://poser.pugx.org/vinkas/laravel-recaptcha/v/stable.svg)](https://packagist.org/packages/vinkas/laravel-recaptcha)
 [![Latest Unstable Version](https://poser.pugx.org/vinkas/laravel-recaptcha/v/unstable.svg)](https://packagist.org/packages/vinkas/laravel-recaptcha)
-[![License](https://poser.pugx.org/vinkas/laravel-recaptcha/license.svg)](https://packagist.org/packages/vinkas/laravel-recaptcha)
+[![License](https://poser.pugx.org/vinkas/laravel-recaptcha/license.svg)](https://packagist.org/packages/vinkas/laravel-recaptcha)-->
 
-### Google reCAPTCHA Validator Package for Laravel Framework
+#### Google reCAPTCHA Validator Package for Laravel Framework
 
 ## Installation
 
-### Via Composer Require
+#### Via Composer Require
 
 You may install by running the `composer require` command in your terminal:
 ```
