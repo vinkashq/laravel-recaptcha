@@ -22,7 +22,7 @@ class ServiceProvider extends BaseServiceProvider {
       $recaptcha = new \ReCaptcha\ReCaptcha($secret);
       $remoteIp = app('request')->getClientIp();
       $response = $recaptcha->verify($value, $remoteIp);
-      return $resp->isSuccess();
+      return $response->isSuccess();
     });
   }
 
