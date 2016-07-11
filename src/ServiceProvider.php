@@ -15,7 +15,7 @@ class ServiceProvider extends BaseServiceProvider {
 
     $this->publishes([
       __DIR__.'/config/recaptcha.php' => config_path('recaptcha.php'),
-    ]);
+    ], 'config');
 
     $this->app->validator->extend('recaptcha', function($attribute, $value, $parameters, $validator) {
       $secret = config('recaptcha.secret');
