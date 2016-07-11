@@ -35,6 +35,12 @@ RECAPTCHA_SITE_KEY=__________
 RECAPTCHA_SECRET=__________
 ```
 
+**Add recaptcha custom error message in `resources\lang\en\validation.php` file**
+
+```
+'recaptcha'            => 'The capcha verfication failed. Please try again.',
+```
+
 **Add recaptcha field in your form's blade view**
 
 ```
