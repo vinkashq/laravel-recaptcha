@@ -35,7 +35,7 @@ RECAPTCHA_SECRET=__________
 **Add `Validator` calling function in your app controller file**
 
 ```
-return Validator::make($data, [
+Validator::make($data, [
   'g-recaptcha-response' => 'required|recaptcha',
 ]);
 ```
