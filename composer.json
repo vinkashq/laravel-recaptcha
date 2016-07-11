@@ -19,5 +19,13 @@
         "psr-4": {
             "Vinkas\\Laravel\\Recaptcha\\": "src"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
     }
 }
