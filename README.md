@@ -63,4 +63,5 @@ Validator::make($data, [
 
 ## Dependencies
 
-[Google Recaptcha](https://github.com/google/recaptcha)
+* [Firebase php JWT](https://github.com/firebase/php-jwt)
+* [FirebaseUI Web](https://github.com/firebase/firebaseui-web)
