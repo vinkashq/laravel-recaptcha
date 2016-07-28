@@ -5,18 +5,11 @@
 
 #### Google reCAPTCHA Validator Package for Laravel Framework
 
-## Installation
-
-#### Via Composer Require
-
-You may install by running the `composer require` command in your terminal:
-```
-composer require vinkas/laravel-recaptcha
-```
+## [Installation](https://community.vinkas.com/t/google-recaptcha-validator-package-for-laravel-php-framework/18/3?u=vinothkannans)
 
 ## Usage
 
-* [Configuration](https://community.vinkas.com/t/configuring-laravel-recaptcha-validator-package/16)
+* [Configuration](https://community.vinkas.com/t/google-recaptcha-validator-package-for-laravel-php-framework/18/4?u=vinothkannans)
 * [MIT License](https://github.com/vinkas0/laravel-recaptcha/blob/master/LICENSE.txt)
 
 ## Dependencies
