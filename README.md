@@ -16,8 +16,6 @@ composer require vinkas/laravel-recaptcha
 
 ## Configuration
 
-----------
-
 **Add Service Provider to your `config/app.php` file**
 
 ```
