@@ -1,6 +1,6 @@
 <?php
 
-namespace Vinkas\Laravel\Recaptcha;
+namespace Vinkas\Recaptcha;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

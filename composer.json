@@ -6,23 +6,28 @@
     "authors": [
         {
             "name": "Vinoth Kannan",
-            "email": "vinothkannan@vinkas.com",
+            "email": "vinoth.kannan@vinkas.com",
             "homepage": "https://github.com/vinothkananns"
+        },
+        {
+            "name": "Vinkas",
+            "email": "mail@vinkas.com",
+            "homepage": "https://vinkas.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "google/recaptcha": "~1.1",
-        "illuminate/support": "^5.2"
+        "google/recaptcha": "^1.3",
+        "illuminate/support": "^11.9"
     },
     "autoload": {
         "psr-4": {
-            "Vinkas\\Laravel\\Recaptcha\\": "src"
+            "Vinkas\\Recaptcha\\": "src"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-main": "2.0-dev"
         }
     },
     "config": {
